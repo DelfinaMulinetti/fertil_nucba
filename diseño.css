@@ -12,8 +12,8 @@ body {
         display: flex;
         flex-direction: row; 
         flex-wrap: wrap;
-        width: 200vh; 
-        margin: 0%; justify-content: right;  }
+        width: 100vw; 
+        margin: 0%; justify-content: right; }
 
     .navuno {
         flex-grow: 0.2; }
@@ -31,7 +31,7 @@ body {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-       width: 200vh;
+       width: 100vw;
         height: 90vh;
         flex-basis: 1000px;
         background-image: url(CSS/studio.png) ;
@@ -46,7 +46,7 @@ body {
         flex-direction: row;
         flex-wrap: wrap;
         font-size: 3vh;
-        width: 200vh;
+        width: 100vw;
         justify-content: center;
         justify-items: center;
         font-family: 'Roboto', sans-serif;}
@@ -54,7 +54,7 @@ body {
     h2 {
       color: white;
       display: flex;
-      width: 200vh;
+      width: 100vw;
       flex-direction: row;
       flex-wrap: wrap;
       font-size: 3vh;
@@ -65,7 +65,7 @@ body {
     h3 { color: white;
         display: flex;
         flex-direction: row;
-        width: 200vh;
+        width: 100vw;
         flex-wrap: wrap;
         font-size: 3vh;
         justify-items: center;
@@ -76,7 +76,7 @@ body {
     .galeryflex {
         display: flex;
         margin: 0px;
-        width: 200vh;
+        width: 100vw;
         flex-direction: row;
         flex-wrap: wrap;
         background-color: transparent;
@@ -85,17 +85,18 @@ body {
 
     .galery2flex {
         display: flex;
-        flex-direction: row;
-        width: 200vh;
+        flex-direction: column;
+        width: 100vw;
         flex-wrap: wrap;
         justify-content: center;
-        margin: 2%;}
+        margin: 0%;
+      padding: 1%;}
 
     .galery3flex {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        width: 200vh;
+        width: 100vw;
         justify-content: center; gap: 3em;
     }
    
@@ -104,7 +105,7 @@ body {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-        width: 200vh;
+        width: 100vw;
         align-items: center;
         justify-content: center;
         background-color: transparent;}
@@ -115,7 +116,7 @@ body {
             display: flex;
             flex-wrap: wrap;
             flex-direction: row;
-            width: 200vh;
+            width: 100vw;
             background-color: transparent;
             justify-content: center;}
 
@@ -135,7 +136,7 @@ body {
 
     .IScontenedor {
         display: flex;
-        width: 200vh;
+        width: 100vw;
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: center;
@@ -161,7 +162,7 @@ body {
      @media (min-width: 1440px) {
         .flexbox-seg {
             display: flex;
-            width: 200vh;
+            width: 100vw;
             height: 90vh;
             align-items: center;
             justify-content: center;
