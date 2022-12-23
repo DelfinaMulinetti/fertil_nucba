@@ -120,14 +120,20 @@ body {
         align-items: center;
         align-content: center;
         background-image: url(./CSS/BackRegistrate3.png);
-        background-size: cover;
-
-        
-
-    }
+        background-size: cover; }
 
 
+     @media (min-width: 1440px) {
+        .flexbox-seg {
+            display: flex;
+            width: 200vh;
+            align-items: center;
+            justify-content: center;
+            background-color: aqua;
 
+
+        }
+     }
 
 
 
