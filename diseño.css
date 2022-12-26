@@ -36,7 +36,8 @@ body {
         flex-basis: 1000px;
         background-image: url(CSS/studio.png) ;
         background-size: cover;  
-        justify-content: center; 
+        justify-content: center;
+        justify-items: center; 
         background-position: center; }
 
 
@@ -67,7 +68,7 @@ body {
         flex-direction: row;
         width: 100vw;
         flex-wrap: wrap;
-        font-size: 3vh;
+        font-size: 2.8vh;
         justify-items: center;
         justify-content: center;   
         font-family: 'Roboto', sans-serif;}
@@ -89,8 +90,8 @@ body {
         width: 100vw;
         flex-wrap: wrap;
         justify-content: center;
-        margin: 0%;
-      padding: 1%;}
+        margin: 0.5%;
+      padding: 0%; gap: 3em;}
 
     .galery3flex {
         display: flex;
@@ -140,10 +141,7 @@ body {
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: center;
-        align-content: center;
-        
-
-    }
+        align-content: center;}
 
     .Registrarse {
         display: flex;
@@ -163,10 +161,75 @@ body {
         .flexbox-seg {
             display: flex;
             width: 100vw;
-            height: 90vh;
+            height: 70vh;
             align-items: center;
             justify-content: center;
-            background-color: aqua; } }
+            background-color: aqua; }  }
 
     
+@media (max-width: 768px) {
+    h3 {
+        font-size: 2.5vh;} 
 
+    .flexbox-seg {
+        height: 50vh;
+    }
+    }
+
+@media (max-width: 450px) {
+    .flexbox-seg {
+        display: flex;
+        flex-direction: row; 
+        flex-wrap: wrap;
+        width: 100vw; 
+        height: 40vh;
+        margin: 0%; justify-content: right;}
+
+        img {
+            width: 80vw;
+            height: 30vh;
+        }
+
+     .galeryflex {
+        display: flex;
+        margin: 0px;
+        width: 80vw;
+        height: 70vh;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: transparent;
+        justify-content: center; gap: 3em; align-content: center;} 
+
+    .galery2flex {
+        display: flex;
+        margin: 0px;
+        width: 100vw;
+        height: 90vh;
+        align-content: center;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        background-color: aqua;}
+
+    .galery3flex {
+        display: flex;
+        margin: 0px;
+        height: 50vh;
+        width: 100vw;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: transparent;
+        justify-content: center; gap: 3em; align-content: center;
+    }
+    } 
+
+@media (max-width: 412px) {
+    .flexbox-seg {
+        display: flex;
+        flex-direction: row; 
+        flex-wrap: wrap;
+        height: 30vh;
+        width: 100vw; 
+        margin: 0%; justify-content: right;
+    }
+}
