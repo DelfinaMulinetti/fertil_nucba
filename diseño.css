@@ -5,17 +5,16 @@ body {
      background-size: cover;
      overflow-x: hidden ;}
 
+a { color: white; text-decoration: none; font-family: 'Roboto', sans-serif; flex-wrap: wrap;}
 
-    a { color: white; text-decoration: none; font-family: 'Roboto', sans-serif; flex-wrap: wrap;}
-
-    .Flexbox-Container1 {
+.Flexbox-Container1 {
         display: flex;
         flex-direction: row; 
         flex-wrap: wrap;
         width: 100vw; 
         margin: 0%; justify-content: right; }
 
-    .navuno {
+     .navuno {
         flex-grow: 0.2; }
 
      .navdos {
@@ -26,8 +25,7 @@ body {
     .navcuatro {
         flex-grow: 0.2;}
 
-
-    .flexbox-seg {
+.flexbox-seg {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -46,7 +44,8 @@ body {
         color: darkgoldenrod;
         flex-direction: row;
         flex-wrap: wrap;
-        font-size: 3vh;
+        margin-top: 10%;
+        font-size: 7vh;
         width: 100vw;
         justify-content: center;
         justify-items: center;
@@ -73,10 +72,9 @@ body {
         justify-content: center;   
         font-family: 'Roboto', sans-serif;}
 
-
-    .galeryflex {
+.galeryflex {
         display: flex;
-        margin: 0px;
+        margin-top: 5%;
         width: 100vw;
         flex-direction: row;
         flex-wrap: wrap;
@@ -84,80 +82,129 @@ body {
         justify-content: center; gap: 3em;
          }
 
-    .galery2flex {
+.galery2flex {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         width: 100vw;
         flex-wrap: wrap;
         justify-content: center;
-        margin: 0.5%;
-      padding: 0%; gap: 3em;}
+        justify-items: center;
+        margin-top: 5%;
+        padding: 0%; gap: 3em;}
 
-    .galery3flex {
+.GalerySorpresa {
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+      padding: 0%; gap: 3em; }
+
+.galery3flex {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         width: 100vw;
-        justify-content: center; gap: 3em;
-    }
-   
+        justify-content: center; gap: 3em;}
 
-    .Texto {
+.marcas1 {
         display: flex;
+        flex-direction: row;
+        justify-content: center;
         flex-wrap: wrap;
+        width: 100vw;
+        margin-top: 5%;
+        margin-bottom: 5%;
+      padding: 0%; gap: 3em; }
+      
+.marcas2 {
+           display: flex;
+            flex-direction: row;
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 100vw;
+            margin-top: 5%;
+            margin-bottom: 5%;
+          padding: 0%; gap: 3em;}
+    
+.Texto {
+        margin-top: 10%;
+        flex-wrap: wrap;
+        display: flex;
+        gap: 3vh;
         flex-direction: row;
         width: 100vw;
         align-items: center;
         justify-content: center;
         background-color: transparent;}
 
-    
-    
-    .cineclub {
+.cineclub {
             display: flex;
             flex-wrap: wrap;
             flex-direction: row;
+            padding-top: 10vh;
             width: 100vw;
             background-color: transparent;
             justify-content: center;}
 
-
-    .IniciarSesión {
+.IniciarSesión {
         display: flex;
-        width: 90vh;
-        height: 70vh;
+        width: 50vw;
+        height: 60vh;
         flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: center;
-        margin: 10vh;
+        flex-direction: column;
+        justify-content:  center;
         align-content: center;
-        background-image: url(./CSS/pruebadeIS.png);
+        border-color: #B8860B;
+        border-radius: 20%;
+        border-style: groove;
+        background-image: url(./CSS/background2.jpg);
         background-size: cover;
         background-position: center;}
-
-    .IScontenedor {
+  
+.IScontenedor {
+        padding: 5%;
         display: flex;
-        width: 100vw;
         flex-wrap: wrap;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         align-content: center;}
 
-    .Registrarse {
+.Registrarse {
         display: flex;
-        width:  90vh;
-        height: 70vh;
+        width:  50vw;
+        border-color: #B8860B;
+        margin-bottom: 15vh;
+        border-radius: 20%;
+        border-style: groove;
+        height: 60vh;
         flex-direction: column;
         flex-wrap: wrap;
         justify-content: center;
         justify-content: center;
         align-items: center;
         align-content: center;
-        background-image: url(./CSS/BackRegistrate3.png);
+        background-image: url(./CSS/background2.jpg);
         background-size: cover; }
 
 
-     @media (min-width: 1440px) {
+        h4 {
+            color: white;
+            background-color: black;
+            font-size: 20px;
+            width: 150px; } 
+
+
+        footer {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            background-color: #B8860B;
+        }
+
+
+@media (min-width: 1440px) {
         .flexbox-seg {
             display: flex;
             width: 100vw;
@@ -166,17 +213,8 @@ body {
             justify-content: center;
             background-color: aqua; }  }
 
-    
-@media (max-width: 768px) {
-    h3 {
-        font-size: 2.5vh;} 
-
-    .flexbox-seg {
-        height: 50vh;
-    }
-    }
-
-@media (max-width: 450px) {
+ 
+@media (max-width: 425px) {
     .flexbox-seg {
         display: flex;
         flex-direction: row; 
@@ -185,51 +223,106 @@ body {
         height: 40vh;
         margin: 0%; justify-content: right;}
 
-        img {
-            width: 80vw;
-            height: 30vh;
-        }
+        img { width: 70vw;
+            height: 30vh;}
 
-     .galeryflex {
-        display: flex;
-        margin: 0px;
-        width: 80vw;
-        height: 70vh;
-        flex-direction: row;
-        flex-wrap: wrap;
-        background-color: transparent;
-        justify-content: center; gap: 3em; align-content: center;} 
+            h1 { font-size: 4vh;}
+        
+            h2{  font-size: 3vh; }
+        
+            h3 { font-size: 2.5vh;}
+        
+            h4 {font-size: 2.5vh;} 
+        
+            a {font-size: 3vh;}
 
-    .galery2flex {
-        display: flex;
-        margin: 0px;
-        width: 100vw;
-        height: 90vh;
-        align-content: center;
-        flex-direction: column;
-        justify-content: center;
-        flex-wrap: wrap;
-        background-color: aqua;}
+            .flexbox-seg{margin-top: 5vh;}
+        
+            .galeryflex{margin-top: 5vh;}
+        
+            .galery2flex {margin-top: 7vh;}
+        
+            .galery3flex {margin-top: 7vh}
+        
+            .GalerySorpresa {margin-top: 7vh;}
 
-    .galery3flex {
-        display: flex;
-        margin: 0px;
-        height: 50vh;
-        width: 100vw;
-        flex-direction: row;
-        flex-wrap: wrap;
-        background-color: transparent;
-        justify-content: center; gap: 3em; align-content: center;
-    }
-    } 
+.marca1 {
+    width: 35vh;}
 
-@media (max-width: 412px) {
-    .flexbox-seg {
+    .marca2 {width: 35vh;}
+    .marca3 {width: 35vh;}
+    .marca4 {width: 35vh;}
+
+  .insta {
+    width: 5vh;
+    height: 5vh;
+    justify-content: center;}
+        
+   .youtube {
+    width: 5vh;
+    height: 5vh;
+    justify-content: center;}
+    
+   .cineclub {
+    width: 40vh; }
+
+    .IniciarSesión {width: 47vh; height: 60vh;
         display: flex;
-        flex-direction: row; 
         flex-wrap: wrap;
-        height: 30vh;
-        width: 100vw; 
-        margin: 0%; justify-content: right;
-    }
-}
+        flex-direction: row;}
+
+    .Registrarse {width: 47vh; height: 60vh;} }
+
+
+
+@media (max-width: 320px) {
+    h1 { font-size: 3vh;}
+
+    h2{  font-size: 2.5vh; }
+
+    h3 { font-size: 2vh;}
+
+    h4 {font-size: 3vh;} 
+
+    a {font-size: 2.3vh;}
+
+    .flexbox-seg{margin-top: 5vh;}
+
+    .galeryflex{margin-top: 5vh;}
+
+    .galery2flex {margin-top: 8vh;}
+
+    .galery3flex {margin-top: 8vh}
+
+    .GalerySorpresa {margin-top: 8vh;}
+
+    .lau {width: 47vh;}
+    .cris {width: 47vh;}
+    .nunca {width: 47vh;}
+    .tres {width: 47vh;}
+    .cinco {width: 47vh;}
+    .uno {width: 47vh;}
+    .dali {width: 47vh;}
+    .pescados {width: 47vh;}
+
+    .Marcas {margin-top: 15vh;}
+
+   .insta {
+    width: 5vh;
+    height: 5vh;
+    justify-content: center;}
+        
+   .youtube {
+    width: 5vh;
+    height: 5vh;
+    justify-content: center;}
+    
+   .cineclub {
+    width: 40vh; }
+
+    .IniciarSesión {width: 45vh; height: 60vh;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;}
+
+    .Registrarse {width: 45vh; height: 60vh;} }
