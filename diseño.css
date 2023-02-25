@@ -236,12 +236,12 @@ img { width: 70vw;
         
             a {font-size: 2vh;}
 
-            .lau {width: 50vh;}
+            .lau {width: 50vh; }
             .cris {width: 50vh;}
             .nunca {width: 50vh;}
-            .tres {width: 50vh;}
+            .tres {width: 50vh; height: 60vh;}
             .cinco {width: 50vh;}
-            .uno {width: 50vh;}
+            .uno {width: 50vh; height: 60vh;}
             .dali {width: 50vh;}
             .pescados {width: 50vh;}
 
@@ -309,9 +309,9 @@ img { width: 70vw;
     .lau {width: 47vh;}
     .cris {width: 47vh;}
     .nunca {width: 47vh;}
-    .tres {width: 47vh;}
+    .tres {width: 47vh; height: 57vh;}
     .cinco {width: 47vh;}
-    .uno {width: 47vh;}
+    .uno {width: 47vh; height: 57vh;}
     .dali {width: 47vh;}
     .pescados {width: 47vh;}
 
