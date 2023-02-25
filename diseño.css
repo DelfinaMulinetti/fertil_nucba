@@ -223,7 +223,7 @@ a { color: white; text-decoration: none; font-family: 'Roboto', sans-serif; flex
         height: 40vh;
         margin: 0%; justify-content: right;}
 
-        img { width: 70vw;
+img { width: 70vw;
             height: 30vh;}
 
             h1 { font-size: 4vh;}
@@ -236,15 +236,25 @@ a { color: white; text-decoration: none; font-family: 'Roboto', sans-serif; flex
         
             a {font-size: 2vh;}
 
+            .lau {width: 50vh;}
+            .cris {width: 50vh;}
+            .nunca {width: 50vh;}
+            .tres {width: 50vh;}
+            .cinco {width: 50vh;}
+            .uno {width: 50vh;}
+            .dali {width: 50vh;}
+            .pescados {width: 50vh;}
+
+
             .flexbox-seg{margin-top: 5vh;}
         
             .galeryflex{margin-top: 5vh;}
         
-            .galery2flex {margin-top: 6.5vh;}
+            .galery2flex {margin-top: 7vh;}
         
-            .galery3flex {margin-top: 6.5vh}
+            .galery3flex {margin-top: 7vh}
         
-            .GalerySorpresa {margin-top: 6.5vh;}
+            .GalerySorpresa {margin-top: 7vh;}
 
 .marca1 {
     width: 35vh;}
