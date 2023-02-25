@@ -126,11 +126,11 @@ a { color: white; text-decoration: none; font-family: 'Roboto', sans-serif; flex
             flex-wrap: wrap;
             width: 100vw;
             margin-top: 5%;
-            margin-bottom: 5%;
+            margin-bottom: 0;
           padding: 0%; gap: 3em;}
     
 .Texto {
-        margin-top: 10%;
+        margin-top: 5%;
         flex-wrap: wrap;
         display: flex;
         gap: 3vh;
@@ -259,9 +259,13 @@ img { width: 70vw;
 .marca1 {
     width: 35vh;}
 
+    .marcas1 {margin-bottom: -25vh;}
+
     .marca2 {width: 35vh;}
     .marca3 {width: 35vh;}
     .marca4 {width: 35vh;}
+
+.Texto {margin-top: -100;}
 
   .insta {
     width: 5vh;
@@ -315,8 +319,10 @@ img { width: 70vw;
     .dali {width: 47vh;}
     .pescados {width: 47vh;}
 
-    .Marcas {margin-top: 15vh;}
+    .Marcas {margin-top: 0vh;}
 
+    .marcas1 {margin-bottom: -25vh;}
+    
    .insta {
     width: 5vh;
     height: 5vh;
