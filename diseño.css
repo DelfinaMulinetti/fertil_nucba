@@ -190,11 +190,6 @@ a {font-size: 2vh;}
         flex-direction: column; 
         justify-content: center;
         align-items: center; }
-
-.marcas {display: flex;
-    flex-direction: column; 
-    justify-content: center;
-    align-items: center;}
   
 .Contacto {margin-top: -100;}
 
