@@ -4,28 +4,18 @@ body {
     background-image: url(./CSS/backgroundblack.jpg);
      background-size: cover;
      overflow-x: hidden ;}
-
 a { color: white; text-decoration: none; font-family: 'Roboto', sans-serif; flex-wrap: wrap;}
 
-.Flexbox-Container1 {
-        display: flex;
-        flex-direction: row; 
-        flex-wrap: wrap;
-        width: 100vw; 
-        margin: 0%; justify-content: right; }
+.Menu {
+display: flex;
+flex-direction: row; 
+flex-wrap: wrap;
+width: 100vw; 
+margin: 0%; justify-content: right;}
 
-     .navuno {
-        flex-grow: 0.2; }
+.opcion {flex-grow: 0.2; }
 
-     .navdos {
-        flex-grow: 0.2;
-        }
-    .navtres {
-        flex-grow: 0.2;}
-    .navcuatro {
-        flex-grow: 0.2;}
-
-.flexbox-seg {
+.Banner {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -37,79 +27,70 @@ a { color: white; text-decoration: none; font-family: 'Roboto', sans-serif; flex
         justify-content: center;
         justify-items: center; 
         background-position: center; }
-
-
-     h1 {
-        display: flex;
-        color: darkgoldenrod;
-        flex-direction: row;
-        flex-wrap: wrap;
-        margin-top: 10%;
-        font-size: 7vh;
-        width: 100vw;
-        justify-content: center;
-        justify-items: center;
-        font-family: 'Roboto', sans-serif;}
+h1 {
+    display: flex;
+    color: darkgoldenrod;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10%;
+    font-size: 7vh;
+    width: 100vw;
+    justify-content: center;
+    justify-items: center;
+    font-family: 'Roboto', sans-serif;}
         
-    h2 {
-      color: white;
-      display: flex;
-      width: 100vw;
-      flex-direction: row;
-      flex-wrap: wrap;
-      font-size: 3vh;
-      justify-items: center;
-      justify-content: center;
-      font-family: 'Roboto', sans-serif;}
+h2 {
+    color: white;
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 3vh;
+    margin-top: 10vh;
+    justify-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;}
         
-    h3 { color: white;
-        display: flex;
-        flex-direction: row;
-        width: 100vw;
-        flex-wrap: wrap;
-        font-size: 2.8vh;
-        justify-items: center;
-        justify-content: center;   
-        font-family: 'Roboto', sans-serif;}
+ h3 { 
+    color: white;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    flex-wrap: wrap;
+    font-size: 2.8vh;
+    justify-content: center;   
+    font-family: 'Roboto', sans-serif;}
 
-.galeryflex {
+ h4 {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    background-color: black;
+    justify-items: center;
+    justify-content: center;
+    font-size: 20px;
+    width: 150px; } 
+
+.galeryHorizontal {
         display: flex;
         margin-top: 5%;
         width: 100vw;
         flex-direction: row;
         flex-wrap: wrap;
         background-color: transparent;
-        justify-content: center; gap: 3em;
-         }
-
-.galery2flex {
-        display: flex;
-        flex-direction: row;
-        width: 100vw;
-        flex-wrap: wrap;
-        justify-content: center;
-        justify-items: center;
-        margin-top: 5%;
-        padding: 0%; gap: 3em;}
-
-.GalerySorpresa {
-        display: flex;
-        flex-direction: row;
-        width: 100vw;
-        flex-wrap: wrap;
-        justify-content: center;
-        margin-top: 5%;
-        margin-bottom: 5%;
-      padding: 0%; gap: 3em; }
-
-.galery3flex {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        width: 100vw;
         justify-content: center; gap: 3em;}
 
-.marcas1 {
+.GaleryVertical {
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+      padding: 0%; gap: 3em; }
+
+.marcas {
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -118,36 +99,16 @@ a { color: white; text-decoration: none; font-family: 'Roboto', sans-serif; flex
         margin-top: 5%;
         margin-bottom: 5%;
       padding: 0%; gap: 3em; }
-      
-.marcas2 {
-           display: flex;
-            flex-direction: row;
-            justify-content: center;
-            flex-wrap: wrap;
-            width: 100vw;
-            margin-top: 5%;
-            margin-bottom: 0;
-          padding: 0%; gap: 3em;}
-    
-.Texto {
+
+.Contacto {
         margin-top: 5%;
         flex-wrap: wrap;
         display: flex;
         gap: 3vh;
         flex-direction: row;
         width: 100vw;
-        align-items: center;
         justify-content: center;
         background-color: transparent;}
-
-.cineclub {
-            display: flex;
-            flex-wrap: wrap;
-            flex-direction: row;
-            padding-top: 10vh;
-            width: 100vw;
-            background-color: transparent;
-            justify-content: center;}
 
 .IniciarSesión {
         display: flex;
@@ -169,176 +130,93 @@ a { color: white; text-decoration: none; font-family: 'Roboto', sans-serif; flex
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-        justify-content: center;
-        align-content: center;}
+       align-content: center;}
 
 .Registrarse {
         display: flex;
         width:  50vw;
+        height: 60vh;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
         border-color: #B8860B;
         margin-bottom: 15vh;
         border-radius: 20%;
         border-style: groove;
-        height: 60vh;
-        flex-direction: column;
+       background-image: url(./CSS/background2.jpg);
+        background-size: cover;
+        background-position: center; }
+
+.boxR { display: flex;
         flex-wrap: wrap;
-        justify-content: center;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
-        background-image: url(./CSS/background2.jpg);
-        background-size: cover; }
+        justify-content: center;}
 
-
-        h4 {
-            color: white;
-            background-color: black;
-            font-size: 20px;
-            width: 150px; } 
-
-
-        footer {
-            padding-top: 10px;
-            padding-bottom: 10px;
-            background-color: #B8860B;
-        }
-
+footer {padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #B8860B; }
 
 @media (min-width: 1440px) {
-        .flexbox-seg {
-            display: flex;
-            width: 100vw;
-            height: 70vh;
-            align-items: center;
-            justify-content: center;
-            background-color: aqua; }  }
+.Banner {display: flex;
+        width: 100vw;
+        height: 70vh;
+        align-items: center;
+        justify-content: center;}}
 
- 
 @media (max-width: 425px) {
-    .flexbox-seg {
-        display: flex;
+.Banner {display: flex;
         flex-direction: row; 
         flex-wrap: wrap;
         width: 100vw; 
         height: 40vh;
         margin: 0%; justify-content: right;}
 
-img { width: 70vw;
-            height: 30vh;}
+img { width: 70vw;height: 30vh;}
+h1 { font-size: 3.5vh;}        
+h2{  font-size: 2.3vh; text-align: center; margin-top: 5vh;}        
+h3 { font-size: 2vh;}        
+h4 {font-size: 2.5vh;}         
+a {font-size: 2vh;}
 
-            h1 { font-size: 4vh;}
-        
-            h2{  font-size: 3vh; }
-        
-            h3 { font-size: 2vh;}
-        
-            h4 {font-size: 2.5vh;} 
-        
-            a {font-size: 2vh;}
+.documental {width: 50vh; }
+.paisaje {width: 50vh; height: 60vh;}
+.ficcion {width: 50vh;}
+       
+.galeryHorizontal{margin-top: 5vh;}
+.GaleryVertical {margin-top: 7vh;}
 
-            .lau {width: 50vh; }
-            .cris {width: 50vh;}
-            .nunca {width: 50vh;}
-            .tres {width: 50vh; height: 60vh;}
-            .cinco {width: 50vh;}
-            .uno {width: 50vh; height: 60vh;}
-            .dali {width: 50vh;}
-            .pescados {width: 50vh;}
-
-
-            .flexbox-seg{margin-top: 5vh;}
-        
-            .galeryflex{margin-top: 5vh;}
-        
-            .galery2flex {margin-top: 7vh;}
-        
-            .galery3flex {margin-top: 7vh}
-        
-            .GalerySorpresa {margin-top: 7vh;}
-
-.marca1 {
-    width: 35vh;}
-
-    .marcas1 {margin-bottom: -25vh;}
-
-    .marca2 {width: 35vh;}
-    .marca3 {width: 35vh;}
-    .marca4 {width: 35vh;}
-
-.Texto {margin-top: -100;}
-
-  .insta {
-    width: 5vh;
-    height: 5vh;
-    justify-content: center;}
-        
-   .youtube {
-    width: 5vh;
-    height: 5vh;
-    justify-content: center;}
-    
-   .cineclub {
-    width: 40vh; }
-
-    .IniciarSesión {width: 47vh; height: 60vh;
+.marca {width: 35vh;
         display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;}
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center; }
 
-    .Registrarse {width: 47vh; height: 60vh;} }
+.marcas {display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;}
+  
+.Contacto {margin-top: -100;}
 
+.insta {width: 5vh; height: 5vh; justify-content: center;}
+.youtube { width: 5vh; height: 5vh; justify-content: center;}
+.IniciarSesión {width: 47vh; height: 60vh; display: flex; flex-wrap: wrap; flex-direction: row;}
+.Registrarse {width: 47vh; height: 60vh;} }
 
 
 @media (max-width: 320px) {
-    h1 { font-size: 3vh;}
-
-    h2{  font-size: 2.5vh; }
-
-    h3 { font-size: 2vh;}
-
-    h4 {font-size: 3vh;} 
-
-    a {font-size: 2vh;}
-
-    .flexbox-seg{margin-top: 5vh;}
-
-    .galeryflex{margin-top: 5vh;}
-
-    .galery2flex {margin-top: 8vh;}
-
-    .galery3flex {margin-top: 8vh}
-
-    .GalerySorpresa {margin-top: 8vh;}
-
-    .lau {width: 47vh;}
-    .cris {width: 47vh;}
-    .nunca {width: 47vh;}
-    .tres {width: 47vh; height: 57vh;}
-    .cinco {width: 47vh;}
-    .uno {width: 47vh; height: 57vh;}
-    .dali {width: 47vh;}
-    .pescados {width: 47vh;}
-
-    .Marcas {margin-top: 0vh;}
-
-    .marcas1 {margin-bottom: -25vh;}
+  body {overflow-x: hidden;}
+  h1 { font-size: 3vh;}
+  
+.Banner {margin-top: 5vh;}
+.galeryHorizontal{margin-top: 5vh;}
+.GaleryVertical {margin-top: 8vh;}
+.documental {width: 47vh;}
+.paisaje {width: 47vh; height: 57vh;}
+.ficcion {width: 47vh;}
     
-   .insta {
-    width: 5vh;
-    height: 5vh;
-    justify-content: center;}
-        
-   .youtube {
-    width: 5vh;
-    height: 5vh;
-    justify-content: center;}
-    
-   .cineclub {
-    width: 40vh; }
+.insta {margin-top: 10vh;}
+.youtube { margin-top: 10vh;}
 
-    .IniciarSesión {width: 45vh; height: 60vh;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;}
-
-    .Registrarse {width: 45vh; height: 60vh;} }
+.IniciarSesión {width: 45vh;}
+.Registrarse {width: 45vh;} }
