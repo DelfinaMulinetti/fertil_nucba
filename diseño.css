@@ -2,7 +2,7 @@ body {
     margin: 0%;
     border: 0%; 
     background-image: url(./CSS/backgroundblack.jpg);
-     background-size: cover;}
+background-size: cover;}
 a { color: white; text-decoration: none; font-family: 'Roboto', sans-serif; flex-wrap: wrap;}
 
 .menu {
@@ -199,7 +199,7 @@ a {font-size: 2vh;}
 .Registrarse {width: 60vh; height: 60vh;} }
 
 
-@media (max-width: 320px) {
+@media (max-width: 320px ) {
   body {overflow-x: hidden;}
   .menu {margin-top: 5%;}
   h1 { font-size: 3vh;}
@@ -214,5 +214,10 @@ a {font-size: 2vh;}
 .ficcion {width: 47vh;}   
 .contacto {margin-top: 0; margin-left: 5%; margin-right: 5%;}
 .insta {margin-top: 0vh;}
-.IniciarSesión {width: 50vh; height: 50vh;}
+.iniciarSesión {width: 50vh; height: 50vh;}
 .Registrarse {width: 50vh; height: 50vh;}}
+
+@media (max-width: 282px) { 
+h1 { font-size: 2.5vh; justify-content: center;}
+.iniciarSesión {width: 45vh; height: 45vh;}
+.Registrarse {width: 45vh; height: 45vh;}} 
