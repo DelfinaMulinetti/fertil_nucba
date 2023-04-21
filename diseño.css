@@ -207,30 +207,12 @@ a {font-size: 2vh;}
 
 
 @media(max-width: 360px) {
-        h1 {font-size: 3vh;}
-        .iniciarsesión {width: 80%;}
-        .registrarse {width:80%}
+        h1 {font-size: 5vw;}
+        .iniciarsesión {width: 80vw;}
+        .registrarse {width:80vw}
 }
 
-@media (max-width: 320px ) {
-  body {overflow-x: hidden;}
-  .menu {margin-top: 5%;}
-  h1 { font-size: 2.5vh;}
-  h2{  font-size: 2vh; text-align: center; margin-top: 5vh; margin-left: 5%; margin-right: 5%;}        
-  h3 { font-size: 2vh;}  
-  h4 {font-size: 3vh}
-.banner {margin-top: 3vh;}
-.galeryhorizontal{margin-top: 5vh;}
-.galeryvertical {margin-top: 5vh;}
-.documental {width: 40vh; height: 25vh;}
-.paisaje {width: 40vh; height: 50vh;}
-.contacto {margin-top: 0; margin-left: 5%; margin-right: 5%;}
-.insta {margin-top: 0vh;}
-.iniciarsesión {width: 70%; height: 45vh;} 
-.registrarse {width: 70%; height: 45vh;}
 
-
-}
         
 
 
