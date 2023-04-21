@@ -165,7 +165,9 @@ footer {padding-top: 10px;
 .iniciarsesión {width: 45%;} .registrarse {width: 45%;}}
 
 
-@media (max-width: 768px) {.iniciarsesión {width: 55%;} .registrarse {width: 55%;}}
+@media (max-width: 768px) { 
+        h1 {font-size: 4vw;}
+        .iniciarsesión {width: 55vw;} .registrarse {width: 55vw;}}
 
 @media (max-width: 425px) {
 .banner {display: flex;
