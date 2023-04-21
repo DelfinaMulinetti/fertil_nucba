@@ -223,15 +223,20 @@ a {font-size: 2vh;}
 .iniciarsesión {width: 70%; height: 45vh;} 
 .registrarse {width: 70%; height: 45vh;}
 
-@media (max-width: 280px) {
+@media (width: 280px) {
         h1 { font-size: 2.5vh;}
         .iniciarsesión {width: 90%; height: 45vh;} 
-.registrarse {width: 90%; height: 45vh;}
-}
+.registrarse {width: 90%; height: 45vh;}}
+
+@media (max-width: 270px) {
+ h1 { font-size: 2vh;}
+.iniciarsesión {width: 90%; height: 45vh;} 
+.registrarse {width: 90%; height: 45vh;}}
+
         
 }
+        
 
-}
 
 @media (max-width: 250px) {
 h1 {font-size: 2.5vh; justify-content: center;}} 
