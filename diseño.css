@@ -179,10 +179,10 @@ footer {padding-top: 10px;
  .iniciarsesión {width: 85%;} 
  .registrarse {width: 85%;}
 
-img { width: 70vw;height: 30vh;}
-h1 { font-size: 2vh;}        
-h2{  font-size: 1.5vh; text-align: center; margin-top: 5vh;}        
-h3 { font-size: 1.5vh;}        
+img {width: 70vw;height: 30vh;}
+h1 {font-size: 2.3vh;}        
+h2 {font-size: 2.1vh; text-align: center; margin-top: 5vh; }        
+h3 {font-size: 2vh;}        
 h4 {font-size: 2.5vh;}         
 a {font-size: 2vh;}
 
@@ -200,9 +200,10 @@ a {font-size: 2vh;}
         align-items: center; }
   
 .contacto {margin-top: -20;}
+.textois {width: 100%; }
 
-.iniciarsesión {width: 60%; height: 50vh;} 
-.registrarse {width: 60%; height: 50vh;}
+.iniciarsesión {width: 80%; height: 50vh;} 
+.registrarse {width: 80%; height: 50vh;}
 
 .insta {width: 5vh; height: 5vh; justify-content: center;}
 .youtube { width: 5vh; height: 5vh; justify-content: center;} }
