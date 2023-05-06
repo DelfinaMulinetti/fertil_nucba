@@ -1,16 +1,24 @@
-    body {
+body {
     margin: 0%;
     border: 0%; 
     background-image: url(./CSS/backgroundblack.jpg);
      background-size: cover;}
-a { color: white; text-decoration: none; font-family: 'Roboto', sans-serif; flex-wrap: wrap;}
+
+a { color: white; text-decoration: none; font-family: 'Roboto', sans-serif; 
+        display: flex; flex-wrap: wrap; 
+        size: 6vh; justify-content: center;
+align-items: center;}
+
+main {margin: 0%; padding: 0%;}
 
 .menu {
 display: flex;
 flex-direction: row; 
 flex-wrap: wrap;
+width: 100%;
 margin-top: 1%;
- justify-content: right;}
+padding: 0%;
+justify-content: center; align-items: center; align-content: center;}
 
 .opcion {flex-grow: 0.2; }
 
@@ -18,7 +26,7 @@ margin-top: 1%;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        height: 90vh;
+        height: 38rem;
         width: 100%;
         background-image: url(CSS/studio.png) ;
         background-size: cover;  
@@ -63,11 +71,12 @@ h2 {
     border-radius: 20% ;
     justify-items: center;
     justify-content: center;
-    font-size: 20px; } 
+    font-size: 4vh; } 
 
 .galeryhorizontal {
         display: flex;
         margin-top: 5%;
+        padding: 0%;
         flex-direction: row;
         flex-wrap: wrap;
         background-color: transparent;
@@ -105,8 +114,8 @@ h2 {
 
 .iniciarsesión {
         display: flex;
-        width: 40%;
-         height: 50vh;
+        width: 35%;
+        height: 65vh;
         flex-wrap: wrap;
         flex-direction: column;
         justify-content:  center;
@@ -117,19 +126,17 @@ h2 {
         background-image: url(./CSS/background2.jpg);
         background-size: cover;
         background-position: center;}
-  
 .iscontenedor {
         display: flex;
         flex-wrap: wrap;
         padding-top: 5%;
         flex-direction: column;
        align-content: center;}
-
 .registrarse {
         display: flex;
         flex-wrap: wrap;
-        width: 40%;
-        height: 50vh;
+        width: 35%;
+        height: 65vh;
         flex-direction: column;
         justify-content: center;
         align-content: center;
@@ -154,43 +161,48 @@ footer {padding-top: 10px;
         padding-bottom: 10px;
         background-color: #B8860B; }
 
-@media (max-width: 1440px) {
-.banner {display: flex;
-        flex-wrap: wrap;
-        height: 100vh; }
-.iniciarsesión {width: 35%; height: 70vh;}
-.registrarse {width: 35%; height: 70vh; }}
 
-@media (width: 1024px) {.banner {height: 100vh; align-items: center; justify-content: center;}
-.iniciarsesión {width: 45%;} .registrarse {width: 45%;}}
+@media (max-width: 1024px) {.banner {height: 80%;}  .iniciarsesión {width: 45%; } .registrarse {width: 45%; }}
 
+@media (max-width: 768px) {.banner { height: 65%; justify-content: center; } 
+h1{ font-size: 4vh;}
+h2 {font: size 3vh;}
+h3 {font-size: 3vh;}
+h4 {font-size: 4vh;}
+a {font-size: 2.5vh;}
 
-@media (max-width: 768px) { 
-        h1 {font-size: 4vw;}
-        .iniciarsesión {width: 55vw;} .registrarse {width: 55vw;}}
-
+.iniciarsesión {width: 60%; } 
+.registrarse {width: 60%;}}
+        
+@media (max-width: 500px) {
+        .banner {height: 60%;}
+        .documental {width: 400px;}
+        .iniciarsesión {width: 85%;}
+        .registrarse {width: 85%;}}
+     
 @media (max-width: 425px) {
 .banner {display: flex;
         flex-direction: row; 
         flex-wrap: wrap;
         margin-top: 2%;
         height: 40vh;
+        width: 100%;
         justify-content: right;}
- .iniciarsesión {width: 85%;} 
- .registrarse {width: 85%;}
+ .iniciarsesión {width: 60%;} 
+ .registrarse {width: 60%;}
 
 img {width: 70vw;height: 30vh;}
 h1 {font-size: 2.3vh;}        
 h2 {font-size: 2vh; text-align: center; margin-top: 5vh; }        
 h3 {font-size: 2vh;}        
-h4 {font-size: 2.5vh;}         
+h4 {font-size: 3vh;}         
 a {font-size: 2vh;}
 
 .documental {width: 50vh; }
 .paisaje {width: 50vh; height: 60vh;}
 .ficcion {width: 50vh;}
        
-.galeria {padding: 0rem 3rem;}
+.galeria {padding: 0rem 5rem;}
 .galeryhorizontal{margin-top: 5vh;}
 .galeryvertical {margin-top: 7vh;}
 
@@ -203,8 +215,8 @@ a {font-size: 2vh;}
 .contacto {margin-top: -20;}
 .textois {width: 100%; }
 
-.iniciarsesión {width: 90%; height: 50vh;} 
-.registrarse {width: 90%; height: 50vh;}
+.iniciarsesión {width: 80%; height: 50vh;} 
+.registrarse {width: 80%; height: 50vh;}
 
 .insta {width: 5vh; height: 5vh; justify-content: center;}
 .youtube { width: 5vh; height: 5vh; justify-content: center;} }
@@ -212,9 +224,8 @@ a {font-size: 2vh;}
 
 @media(max-width: 360px) {
         h1 {font-size: 5vw;}
-        .iniciarsesión {width: 80vw;}
-        .registrarse {width:80vw}
-}
+        .iniciarsesión {width: 90vw; height: 70vw;}
+        .registrarse {width:90vw; height: 70vw;}}
 
 
         
