@@ -149,8 +149,8 @@ h2 {
         background-size: cover;
         background-position: center; }
 
-.input {border-radius: 20px; border-color: white; margin-top: 1%; }
-.button {border-radius: 20px; border-color: white; color: #B8860B ;margin-top: 1%; }
+.input {border-radius: 20px; border-color: white; margin-top: 1%; padding: 1%; width: 50%;}
+.button {border-radius: 20px; border-color: white; color: #B8860B ;margin-top: 1%; width: 50%; padding: 1%; margin-bottom: 15%;}
 
 
 .boxr { display: flex;
@@ -181,6 +181,8 @@ a {font-size: 2.5vh;}
         .registrarse {width: 85%;}}
      
 @media (max-width: 425px) {
+
+html {padding-left: 2%; padding-right: 2%;}
 .banner {display: flex;
         flex-direction: row; 
         flex-wrap: wrap;
@@ -218,8 +220,10 @@ a {font-size: 2vh;}
 .iniciarsesión {width: 80%; height: 50vh;} 
 .registrarse {width: 80%; height: 50vh;}
 
-.insta {width: 5vh; height: 5vh; justify-content: center;}
-.youtube { width: 5vh; height: 5vh; justify-content: center;} }
+.button {margin-bottom: 0%;}
+
+.insta {width: 5.5vh; height: 5vh; justify-content: center;}
+.youtube { width: 5.5vh; height: 5vh; justify-content: center;} }
 
 
 @media(max-width: 360px) {
